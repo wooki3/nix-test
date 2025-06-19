@@ -93,6 +93,11 @@
     ];
   };
 
+hardware.graphics = {
+  enable = true;
+  enable32Bit = true;
+};
+
   # Install firefox.
   programs.firefox.enable = true;
 
