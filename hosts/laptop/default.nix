@@ -136,7 +136,7 @@
 
 
   services.spice-vdagentd.enable = true;
-  servers.spice-autorandr.enable = true;
+  services.spice-autorandr.enable = true;
 
 programs.nh = {
   enable = true;
